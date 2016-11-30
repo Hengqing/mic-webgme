@@ -1,0 +1,234 @@
+[
+    {
+        "name": "ROOT",
+        "children": [
+            {
+                "1": {
+                    "name": "FCO",
+                    "isMeta": true,
+                    "metaType": "FCO",
+                    "children": []
+                }
+            },
+            {
+                "g": {
+                    "name": "Examples",
+                    "isMeta": false,
+                    "metaType": "Folder",
+                    "children": [
+                        {
+                            "O": {
+                                "name": "SimpleFlowChart",
+                                "isMeta": false,
+                                "metaType": "StateMachine",
+                                "children": [
+                                    {
+                                        "0": {
+                                            "name": "Desicion",
+                                            "isMeta": true,
+                                            "metaType": "Desicion",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "1": {
+                                            "name": "Desicion",
+                                            "isMeta": false,
+                                            "metaType": "Desicion",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "5": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Desicion",
+                                            "dst": "Process"
+                                        }
+                                    },
+                                    {
+                                        "9": {
+                                            "name": "Process",
+                                            "isMeta": false,
+                                            "metaType": "Process",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "X": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Desicion",
+                                            "dst": "Process"
+                                        }
+                                    },
+                                    {
+                                        "e": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Process",
+                                            "dst": "End"
+                                        }
+                                    },
+                                    {
+                                        "v": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Process",
+                                            "dst": "End"
+                                        }
+                                    },
+                                    {
+                                        "E": {
+                                            "name": "Start",
+                                            "isMeta": false,
+                                            "metaType": "Start",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "f": {
+                                            "name": "Process",
+                                            "isMeta": false,
+                                            "metaType": "Process",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "Q": {
+                                            "name": "Process",
+                                            "isMeta": false,
+                                            "metaType": "Process",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "g": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Process",
+                                            "dst": "End"
+                                        }
+                                    },
+                                    {
+                                        "k": {
+                                            "name": "End",
+                                            "isMeta": false,
+                                            "metaType": "End",
+                                            "children": []
+                                        }
+                                    },
+                                    {
+                                        "h": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Start",
+                                            "dst": "Desicion"
+                                        }
+                                    },
+                                    {
+                                        "F": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Desicion",
+                                            "dst": "Process"
+                                        }
+                                    },
+                                    {
+                                        "i": {
+                                            "name": "Transition",
+                                            "isMeta": false,
+                                            "metaType": "Transition",
+                                            "src": "Desicion",
+                                            "dst": "Desicion"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "l": {
+                    "name": "Language",
+                    "isMeta": true,
+                    "metaType": "Language",
+                    "children": [
+                        {
+                            "2": {
+                                "name": "Desicion",
+                                "isMeta": false,
+                                "metaType": "Desicion",
+                                "children": []
+                            }
+                        },
+                        {
+                            "v": {
+                                "name": "Transition",
+                                "isMeta": true,
+                                "metaType": "Transition",
+                                "children": []
+                            }
+                        },
+                        {
+                            "B": {
+                                "name": "StateBase",
+                                "isMeta": true,
+                                "metaType": "StateBase",
+                                "children": []
+                            }
+                        },
+                        {
+                            "AR": {
+                                "name": "Start",
+                                "isMeta": true,
+                                "metaType": "Start",
+                                "children": []
+                            }
+                        },
+                        {
+                            "y": {
+                                "name": "Process",
+                                "isMeta": true,
+                                "metaType": "Process",
+                                "children": []
+                            }
+                        },
+                        {
+                            "K": {
+                                "name": "StateMachine",
+                                "isMeta": true,
+                                "metaType": "StateMachine",
+                                "children": []
+                            }
+                        },
+                        {
+                            "E": {
+                                "name": "Folder",
+                                "isMeta": true,
+                                "metaType": "Folder",
+                                "children": []
+                            }
+                        },
+                        {
+                            "S": {
+                                "name": "End",
+                                "isMeta": true,
+                                "metaType": "End",
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

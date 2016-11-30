@@ -1,0 +1,62 @@
+[
+    {
+        "name": "FCO",
+        "path": "/1",
+        "nbrOfChildren": 0,
+        "base": "null"
+    },
+    {
+        "name": "Desicion",
+        "path": "/g/O/0",
+        "nbrOfChildren": 0,
+        "base": "StateBase"
+    },
+    {
+        "name": "Transition",
+        "path": "/l/v",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "StateBase",
+        "path": "/l/B",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Start",
+        "path": "/l/AR",
+        "nbrOfChildren": 0,
+        "base": "StateBase"
+    },
+    {
+        "name": "Process",
+        "path": "/l/y",
+        "nbrOfChildren": 0,
+        "base": "StateBase"
+    },
+    {
+        "name": "StateMachine",
+        "path": "/l/K",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Folder",
+        "path": "/l/E",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "End",
+        "path": "/l/S",
+        "nbrOfChildren": 0,
+        "base": "StateBase"
+    },
+    {
+        "name": "Language",
+        "path": "/l",
+        "nbrOfChildren": 8,
+        "base": "FCO"
+    }
+]
