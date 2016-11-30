@@ -1,4 +1,30 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "seeds": {},
+    "decorators": {},
+    "plugins": {
+      "MiniProject2": {
+        "src": "src/plugins/MiniProject2",
+        "test": "test/plugins/MiniProject2"
+      },
+      "MiniProject2-new": {
+        "src": "src/plugins/MiniProject2-new",
+        "test": "test/plugins/MiniProject2-new"
+      },
+      "MiniProject2New": {
+        "src": "src/plugins/MiniProject2New",
+        "test": "test/plugins/MiniProject2New"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {
+      "FiniteStateMachine": {
+        "project": "finite-state-machine",
+        "path": "node_modules\\finite-state-machine\\src\\seeds\\FiniteStateMachine"
+      }
+    },
+    "decorators": {},
+    "plugins": {}
+  }
 }
