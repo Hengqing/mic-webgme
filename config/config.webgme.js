@@ -8,6 +8,8 @@ var config = require('webgme/config/config.default'),
 
 
 // The paths can be loaded from the webgme-setup.json
+config.plugin.basePaths.push('src/plugins');
+config.seedProjects.basePaths.push('node_modules/finite-state-machine/src/seeds/FiniteStateMachine');
 
 
 
@@ -16,9 +18,11 @@ var config = require('webgme/config/config.default'),
 // Visualizer descriptors
 
 // Add requirejs paths
+config.requirejsPaths = {
+  'FiniteStateMachine': 'node_modules\finite-state-machine\src\seeds\FiniteStateMachine'
+};
 
 
-
-config.mongo.uri = 'mongodb://127.0.0.1:27017/mic_webgme';
+config.mongo.uri = 'mongodb://127.0.0.1:27017/fsm';
 validateConfig(config);
 module.exports = config;
